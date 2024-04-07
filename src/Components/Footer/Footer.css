@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #6B3CC9;
+    --Analogous-Color-1:#6A44F2;
+    --Analogous-Color-2:#1CBDDD;
+    --Triadic-Color-1:#52378C;
+    --Dark-Color:#4DCA79;
+    --Text-Color-Light:#545A75;
+    --Text-Color--Subtle:#9C9991;
+    --Accent-Color:#E2F2FE;
+    --Error-Color:#FF0335;
+    --Success-Color:#5EB30B;
+    --white: #FFF;
+    --black: #000;
+    --Secondary-Color: #F28D35;
+    --purple-background: #FAF8FF;
+    --gray: #6F6C90;
+}
+footer {
+    margin-top: 50px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 30px 0px;
+    /* display: flex; */
+    text-align: left;
+}
+
+footer p {
+    width: 55%;
+}
+
+.logo {
+    width: 240px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-top: 50px;
+    height: 1px;
+    background-color: var(--white);
+    width: 80% !important;
+}
+
+.footer-bottom a{
+    margin-top: 10px;
+}
+
+.footer-bottom a:nth-child(1){
+    border-right: 1px solid var(--white);
+    padding-right: 10px;
+}
+.footer-bottom a:nth-child(2){
+    padding-left: 10px;
+}
+
+
+@media only screen and (min-width: 375px) {
+    
+    .services-div{
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+    
+
+   
+}
+
+@media only screen and (min-width: 768px) {
+    .service-technology-div{
+        display: flex;
+    }
+    .technology-div{
+        padding-right: 100px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .footer-col-12{
+        display: flex;
+    }
+    .technology-div{
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+   .service-technology-div{
+    display: flex;
+    justify-content: end;
+   }
+    
+}

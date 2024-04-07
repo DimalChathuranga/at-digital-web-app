@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #6B3CC9;
+    --Analogous-Color-1:#6A44F2;
+    --Analogous-Color-2:#1CBDDD;
+    --Triadic-Color-1:#52378C;
+    --Dark-Color:#4DCA79;
+    --Text-Color-Light:#545A75;
+    --Text-Color--Subtle:#9C9991;
+    --Accent-Color:#E2F2FE;
+    --Error-Color:#FF0335;
+    --Success-Color:#5EB30B;
+    --white: #FFF;
+    --black: #000;
+    --Secondary-Color: #F28D35;
+    --purple-background: #FAF8FF;
+    --gray: #6F6C90;
+}
+
+/* .container{
+    max-width: calc(100% -10px) !important;
+} */
+
+header{
+    background-color: var(--primary-color);
+}
+.nav-link{
+    color: var(--white) !important;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 240px;
+    height: auto;
+}
+
+.logo-div{
+    padding: 20px 0px;
+}
+
+
+@media only screen and (min-width: 375px){
+    .navbar-toggler,navbar-toggler-icon{
+        background-color: var(--primary-color) !important;
+    }
+   
+
+}
+
+@media only screen and (min-width: 768px){
+    
+}
+
+@media only screen and (min-width: 1200px){
+    
+}
+
+@media only screen and (min-width: 1440px){
+    
+}
